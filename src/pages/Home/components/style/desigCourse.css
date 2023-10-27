@@ -1,0 +1,128 @@
+.desigCourse__section {
+  width: 100%;
+  display: flex;
+  margin: 100px 0;
+  flex-direction: column;
+  align-items: center;
+}
+.desigCourse__section > .desigCourse__text {
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 2.0999999046325684px;
+  text-align: center;
+  color: var(--primary);
+  margin: 0;
+}
+.desigCourse__section > h2 {
+  font-family: DM Sans;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 55px;
+  letter-spacing: -1.5px;
+  text-align: center;
+  margin: 0;
+}
+
+.desigCourse__Container__box {
+  margin-top: 8rem;
+}
+
+.desigCourse__Container {
+  width: 70vw;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 3rem 0;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px #e9e9e9;
+}
+
+.desigCourse__Container > .play__button__container {
+  width: 100px;
+}
+.desigCourse__Container :nth-child(2) {
+  flex: 1;
+}
+.desigCourse__Container .details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.desigCourse__Container .play__button {
+  color: var(--primary);
+}
+.desigCourse__Container .star {
+  color: var(--star);
+}
+.desigCourse__Container .rateing {
+  display: flex;
+  column-gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.desigCourse__Container .title__container > h2 {
+  font-family: DM Sans;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #0f2137;
+  margin: 0;
+}
+.desigCourse__Container .title__container > p {
+  font-family: DM Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #5d646d;
+  margin: 0;
+}
+.detail_points {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1rem;
+}
+.detail_points > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.detail_points > div p {
+  font-family: DM Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin: 0;
+}
+.button__Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+}
+.desigCourse__Container .button {
+  display: inline-block;
+  border-radius: 6px;
+  background-color: var(--secondry);
+  padding: 10px;
+}
+.desigCourse__Container .button > span {
+  font-family: DM Sans;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #fff;
+}

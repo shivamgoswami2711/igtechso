@@ -1,0 +1,116 @@
+.secrion__first {
+  display: flex;
+  height: 95vh;
+  width: 100%;
+}
+.main__heading__container {
+  margin-top: -53px;
+  width: 55%;
+  background: linear-gradient(106.43deg, #e0f5fa -1.4%, #fffde6 100.87%);
+}
+.heading__reating__box {
+  display: flex;
+  width: 100%;
+}
+.main__heading__container > div {
+  display: flex;
+  margin: 0 10rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+}
+
+.main__heading__container > div h1 {
+  position: relative;
+  margin: 0;
+  font-family: DM Sans;
+  font-size: 85px;
+  font-weight: 700;
+  line-height: 100px;
+  letter-spacing: -2px;
+  text-align: left;
+}
+.main__heading__container > div h1::after{
+  position: absolute;
+  bottom: -30px;
+  right: 0;
+  width: 380px;
+  height: 30px;
+  content: "";
+  display: block;
+  background-image: url(../../../../assets/underline.png);
+}
+.Sub__heading {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+/* search */
+.search__container {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  align-items: center;
+}
+.search__box {
+  width: 520px;
+  height: 70px;
+  top: 645px;
+  left: 260px;
+  border-radius: 8px;
+  border: none;
+  padding: 0 10px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 40px;
+}
+.search__box ::placeholder {
+  font-family: DM Sans;
+  letter-spacing: 0px;
+  text-align: left;
+  color: black;
+}
+.search__container > .search_icon {
+  margin-left: -40px;
+  color: var(--black);
+}
+
+/* Suporrted */
+.Suporrted {
+  margin-top: 3rem;
+}
+
+/* video */
+
+.video__container > .video > div:first-child {
+  position: absolute;
+  width: 445px;
+  height: 580px;
+  top: 170px;
+  right: 400px;
+  z-index: 1 !important;
+}
+
+.video__container > .video > div:last-child {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 445px;
+  height: 580px;
+  top: 190px;
+  right: 350px;
+  z-index: 0;
+  border-radius: 5px;
+  border: 2px solid var(--primary);
+}
+.pattern {
+  position: relative;
+  width: 302px;
+  height: 346.17px;
+  top: 50px;
+  left: 120px;
+}

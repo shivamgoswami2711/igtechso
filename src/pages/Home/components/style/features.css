@@ -1,0 +1,28 @@
+.features_section {
+  width: 100%;
+  /* height: 50vh; */
+  display: flex;
+  margin: 100px 0;
+  flex-direction: column;
+  align-items: center;
+}
+.features_section > .features__text {
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 2.0999999046325684px;
+  text-align: center;
+  color: var(--primary);
+  margin: 0;
+}
+.features_section > h2 {
+  font-family: DM Sans;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 55px;
+  letter-spacing: -1.5px;
+  text-align: center;
+  margin: 0;
+}
+

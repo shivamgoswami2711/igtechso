@@ -1,0 +1,16 @@
+.learn__design__Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10rem;
+}
+.learn__design {
+    width: 600px;
+  font-family: DM Sans;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 65px;
+  letter-spacing: -2px;
+  text-align: center;
+}

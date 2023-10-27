@@ -1,0 +1,36 @@
+.Populer__tutorial__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+  }
+  
+  .Populer__tutorial__box {
+    overflow: hidden;
+  }
+  .Populer__tutorial__box > div {
+    display: flex;
+    width: 1400px;
+    column-gap: 20px;
+    transition: all 1s;
+  }
+  
+  .Populer__tutorial {
+    width: 447px;
+    height: 445px;
+    border-radius: 10px;
+    border: 1px;
+  }
+  
+  .Populer__tutorial .star {
+    color: var(--primary);
+  }
+  
+  .Populer__tutorial .viewer_container,
+  .Populer__tutorial .reating {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 3px;
+  }

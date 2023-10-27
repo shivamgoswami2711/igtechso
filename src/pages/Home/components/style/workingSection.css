@@ -1,0 +1,81 @@
+.working__section {
+  width: 100%;
+  display: flex;
+  margin: 100px 0;
+  flex-direction: column;
+  align-items: center;
+}
+.working__section > .working__text {
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 2.0999999046325684px;
+  text-align: center;
+  color: var(--primary);
+  margin: 0;
+}
+.working__section > h2 {
+  font-family: DM Sans;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 55px;
+  letter-spacing: -1.5px;
+  text-align: center;
+  margin: 0;
+}
+
+.work__phase__container{
+    display: flex;
+    column-gap: 4rem;
+    margin-top: 5rem;
+}
+.work__phase__container>.work__phase{
+    width: 263px;
+}
+
+.phase__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.phase__container img{
+    position: relative;
+    right: -20px;
+}
+.work__phase:nth-child(even) .phase__container img{
+    top: 20px;
+}
+.work__phase:nth-child(odd) .phase__container img{
+    top: -20px;
+}
+
+.working__section .phase {
+  font-family: Lexend Deca;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0px;
+  text-align: left;
+  box-shadow: 0px 14px 20px 0px #4c77ab4b;
+  border-radius: 50%;
+  padding: 8px 13px;
+  
+}
+.working__section .details h2 {
+  font-family: DM Sans;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.working__section .details p {
+  font-family: DM Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+}
